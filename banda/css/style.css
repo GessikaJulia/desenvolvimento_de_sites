@@ -1,0 +1,111 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgba(0, 0, 0, .5);
+    font-family: sans-serif;
+    background-image: url(imagens\fundo.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-blend-mode: overlay;
+}
+section {
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 75%;
+    height: 100%;
+    padding: 2% 2% 2% 2%;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: #0e0d0d;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: justify;
+    background: rgb(255, 255, 255);
+}
+header{
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+h1 {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin-right: 40px;
+}
+nav ul li a {
+    color: #313131;
+    text-decoration: none;
+}
+nav ul li a  h2{
+    font-size: 100%;
+}
+.fundo .inicio{
+    background-color: #c50b3a;
+    margin-top: 3%;
+    margin-left: 0;
+    margin-right: 0;
+    color: rgb(255, 255, 255);
+}
+ul li {
+    text-decoration: none;
+}
+.inicio {
+display: block;
+position: relative;
+background-color: #c50b3a;
+text-align: justify;
+padding: 3%;
+margin-top: 1;
+margin-left: 5%;
+margin-right: 45%;
+}
+
+.conteudo{
+text-align: left;
+margin: 8%;
+
+}
+
+.logo{
+    display: block;
+    position: relative;
+
+}
+.logo img{
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 60%;
+    height: 75%;
+}
+.listas {
+    margin-left: 10%;
+}
+div img{
+ width: 100%;
+ height: auto;
+}
+.lateral{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 30%;
+    height: auto;
+}
+
+#integrantes{
+    margin: 4%;
+}
